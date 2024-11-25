@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<title> Omnitaurus </title>
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Zen Dots|Host Grotesk"> 
+
+<style>
+body {
+  background-color: Lightsteelblue;
+  font-family: "Host Grotesk", sans-serif; /* Paragraphs */
+  margin: 0; /* Remove default margin */
+}
+
+h1 {
+  color: black;
+  text-align: center; /* Center text */
+  padding: 20px; /* Adjust padding if necessary */
+  font-family: "Zen Dots", sans-serif; /* Main title */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: Aliceblue;
+  display: flex;
+  align-items: center;
+}
+
+li { 
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: grey;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.logo {
+  margin-left: auto;
+  padding-right: 16px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.maintitle {
+  background-image: url('black.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 50px); /* Full viewport height minus nav bar height */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.maintitle h1 {
+  text-align: center; /* Center text */
+  font-size: 65px;
+  margin: 0; /* Keep margin at 0 for proper centering */
+  color: white;
+}
+</style>
+</head>
+<body>
+
+  <!-- Nav Bar -->
+  <ul>  
+    <li><a href="#home" style="font-weight:bold">Home</a></li>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#collection">Collection</a></li>
+    <li><a href="#checkout">Checkout</a></li>
+    <li class="logo"><img src="logo6.PNG" alt="logo" style="height:50px;">  </li>
+  </ul>
+
+  <div class="maintitle">
+    <h1>OMNITAURUS</h1>  
+  </div>
+  
+  <div class="subtitle"> 
+  </div>
+</body>
+</html>
